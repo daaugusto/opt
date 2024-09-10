@@ -10,6 +10,6 @@ Example for bilevel version - BLDE with surrogate models
 ./Opt -alg BLDE -eval BLDE -F 0.5 -s 1 -sm KNN -smp 3 -nap 5 -opDE 2 -f -10001 -p 20 -g 50 -pF 50 -gF 100 -s -1
 
 
-For more informations use
+for more information use:
 ./Opt -h
 
