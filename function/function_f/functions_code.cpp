@@ -580,8 +580,8 @@ void Functions_Code::initialize_f1()
     fpt = fopen("input_data/sphere_func_data.txt","r");
     if (fpt==NULL)
     {
-        fprintf(stderr,"\n Error: Cannot open input file for reading \n");
-        exit(0);
+        fprintf(stderr,"\n Error: Cannot open input file 'sphere_func_data.txt' for reading \n");
+        exit(1);
     }
     for (i=0; i<nfunc; i++)
     {
@@ -604,8 +604,8 @@ void Functions_Code::initialize_f2()
     fpt = fopen("input_data/schwefel_102_data.txt","r");
     if (fpt==NULL)
     {
-        fprintf(stderr,"\n Error: Cannot open input file for reading \n");
-        exit(0);
+        fprintf(stderr,"\n Error: Cannot open input file 'schwefel_102_data.txt' for reading \n");
+        exit(1);
     }
     for (i=0; i<nfunc; i++)
     {
@@ -631,7 +631,7 @@ void Functions_Code::initialize_f3()
     if (fpt==NULL)
     {
         fprintf(stderr,"\n Error: Cannot open input file for reading \n");
-        exit(0);
+        exit(1);
     }
     for (i=0; i<nreal; i++)
     {
@@ -645,8 +645,8 @@ void Functions_Code::initialize_f3()
     fpt = fopen("input_data/high_cond_elliptic_rot_data.txt","r");
     if (fpt==NULL)
     {
-        fprintf(stderr,"\n Error: Cannot open input file for reading \n");
-        exit(0);
+        fprintf(stderr,"\n Error: Cannot open input file 'high_cond_elliptic_rot_data.txt' for reading \n");
+        exit(1);
     }
     for (i=0; i<nfunc; i++)
     {
@@ -669,8 +669,8 @@ void Functions_Code::initialize_f4()
     fpt = fopen("input_data/schwefel_102_data.txt","r");
     if (fpt==NULL)
     {
-        fprintf(stderr,"\n Error: Cannot open input file for reading \n");
-        exit(0);
+        fprintf(stderr,"\n Error: Cannot open input file 'schwefel_102_data.txt' for reading \n");
+        exit(1);
     }
     for (i=0; i<nfunc; i++)
     {
@@ -761,8 +761,8 @@ void Functions_Code::initialize_f6()
     fpt = fopen("input_data/rosenbrock_func_data.txt","r");
     if (fpt==NULL)
     {
-        fprintf(stderr,"\n Error: Cannot open input file for reading \n");
-        exit(0);
+        fprintf(stderr,"\n Error: Cannot open input file 'rosenbrock_func_data.txt' for reading \n");
+        exit(1);
     }
     for (i=0; i<nfunc; i++)
     {
@@ -789,7 +789,7 @@ void Functions_Code::initialize_f7()
     if (fpt==NULL)
     {
         fprintf(stderr,"\n Error: Cannot open input file for reading \n");
-        exit(0);
+        exit(1);
     }
     for (i=0; i<nreal; i++)
     {
@@ -803,8 +803,8 @@ void Functions_Code::initialize_f7()
     fpt = fopen("input_data/griewank_func_data.txt","r");
     if (fpt==NULL)
     {
-        fprintf(stderr,"\n Error: Cannot open input file for reading \n");
-        exit(0);
+        fprintf(stderr,"\n Error: Cannot open input file 'griewank_func_data.txt' for reading \n");
+        exit(1);
     }
     for (i=0; i<nfunc; i++)
     {
@@ -831,7 +831,7 @@ void Functions_Code::initialize_f8()
     if (fpt==NULL)
     {
         fprintf(stderr,"\n Error: Cannot open input file for reading \n");
-        exit(0);
+        exit(1);
     }
     for (i=0; i<nreal; i++)
     {
@@ -845,8 +845,8 @@ void Functions_Code::initialize_f8()
     fpt = fopen("input_data/ackley_func_data.txt","r");
     if (fpt==NULL)
     {
-        fprintf(stderr,"\n Error: Cannot open input file for reading \n");
-        exit(0);
+        fprintf(stderr,"\n Error: Cannot open input file 'ackley_func_data.txt' for reading \n");
+        exit(1);
     }
     for (i=0; i<nfunc; i++)
     {
@@ -873,8 +873,8 @@ void Functions_Code::initialize_f9()
     fpt = fopen("input_data/rastrigin_func_data.txt","r");
     if (fpt==NULL)
     {
-        fprintf(stderr,"\n Error: Cannot open input file for reading \n");
-        exit(0);
+        fprintf(stderr,"\n Error: Cannot open input file 'rastrigin_func_data.txt' for reading \n");
+        exit(1);
     }
     for (i=0; i<nfunc; i++)
     {
@@ -900,7 +900,7 @@ void Functions_Code::initialize_f10()
     if (fpt==NULL)
     {
         fprintf(stderr,"\n Error: Cannot open input file for reading \n");
-        exit(0);
+        exit(1);
     }
     for (i=0; i<nreal; i++)
     {
@@ -914,8 +914,8 @@ void Functions_Code::initialize_f10()
     fpt = fopen("input_data/rastrigin_func_data.txt","r");
     if (fpt==NULL)
     {
-        fprintf(stderr,"\n Error: Cannot open input file for reading \n");
-        exit(0);
+        fprintf(stderr,"\n Error: Cannot open input file 'rastrigin_func_data.txt' for reading \n");
+        exit(1);
     }
     for (i=0; i<nfunc; i++)
     {
@@ -941,7 +941,7 @@ void Functions_Code::initialize_f11()
     if (fpt==NULL)
     {
         fprintf(stderr,"\n Error: Cannot open input file for reading \n");
-        exit(0);
+        exit(1);
     }
     for (i=0; i<nreal; i++)
     {
@@ -955,8 +955,8 @@ void Functions_Code::initialize_f11()
     fpt = fopen("input_data/weierstrass_data.txt","r");
     if (fpt==NULL)
     {
-        fprintf(stderr,"\n Error: Cannot open input file for reading \n");
-        exit(0);
+        fprintf(stderr,"\n Error: Cannot open input file 'weierstrass_data.txt' for reading \n");
+        exit(1);
     }
     for (i=0; i<nfunc; i++)
     {
@@ -987,8 +987,8 @@ void Functions_Code::initialize_f12()
     fpt = fopen("input_data/schwefel_213_data.txt","r");
     if (fpt==NULL)
     {
-        fprintf(stderr,"\n Error: Cannot open input file for reading \n");
-        exit(0);
+        fprintf(stderr,"\n Error: Cannot open input file 'schwefel_213_data.txt' for reading \n");
+        exit(1);
     }
     /* Reading A */
     for (i=0; i<nreal; i++)
@@ -1058,8 +1058,8 @@ void Functions_Code::initialize_f13()
     fpt = fopen("input_data/EF8F2_func_data.txt","r");
     if (fpt==NULL)
     {
-        fprintf(stderr,"\n Error: Cannot open input file for reading \n");
-        exit(0);
+        fprintf(stderr,"\n Error: Cannot open input file 'EF8F2_func_data.txt' for reading \n");
+        exit(1);
     }
     for (i=0; i<nfunc; i++)
     {
@@ -1086,7 +1086,7 @@ void Functions_Code::initialize_f14()
     if (fpt==NULL)
     {
         fprintf(stderr,"\n Error: Cannot open input file for reading \n");
-        exit(0);
+        exit(1);
     }
     for (i=0; i<nreal; i++)
     {
@@ -1100,8 +1100,8 @@ void Functions_Code::initialize_f14()
     fpt = fopen("input_data/E_ScafferF6_func_data.txt","r");
     if (fpt==NULL)
     {
-        fprintf(stderr,"\n Error: Cannot open input file for reading \n");
-        exit(0);
+        fprintf(stderr,"\n Error: Cannot open input file 'E_ScafferF6_func_data.txt' for reading \n");
+        exit(1);
     }
     for (i=0; i<nfunc; i++)
     {
@@ -1124,8 +1124,8 @@ void Functions_Code::initialize_f15()
     fpt = fopen("input_data/hybrid_func1_data.txt","r");
     if (fpt==NULL)
     {
-        fprintf(stderr,"\n Error: Cannot open input file for reading \n");
-        exit(0);
+        fprintf(stderr,"\n Error: Cannot open input file 'hybrid_func1_data.txt' for reading \n");
+        exit(1);
     }
     for (i=0; i<nfunc; i++)
     {
@@ -1164,8 +1164,8 @@ void Functions_Code::initialize_f16()
     fpt = fopen("input_data/hybrid_func1_data.txt","r");
     if (fpt==NULL)
     {
-        fprintf(stderr,"\n Error: Cannot open input file for reading \n");
-        exit(0);
+        fprintf(stderr,"\n Error: Cannot open input file 'hybrid_func1_data.txt' for reading \n");
+        exit(1);
     }
     for (i=0; i<nfunc; i++)
     {
@@ -1203,6 +1203,7 @@ void Functions_Code::initialize_f16()
         }
        //printf("\n");
     }
+    fclose(fpt);
     lambda[0] = 1.0;
     lambda[1] = 1.0;
     lambda[2] = 10.0;
@@ -1225,8 +1226,8 @@ void Functions_Code::initialize_f17()
     fpt = fopen("input_data/hybrid_func1_data.txt","r");
     if (fpt==NULL)
     {
-        fprintf(stderr,"\n Error: Cannot open input file for reading \n");
-        exit(0);
+        fprintf(stderr,"\n Error: Cannot open input file 'hybrid_func1_data.txt' for reading \n");
+        exit(1);
     }
     for (i=0; i<nfunc; i++)
     {
@@ -1264,6 +1265,7 @@ void Functions_Code::initialize_f17()
         }
        //printf("\n");
     }
+    fclose(fpt);
     lambda[0] = 1.0;
     lambda[1] = 1.0;
     lambda[2] = 10.0;
@@ -1286,8 +1288,8 @@ void Functions_Code::initialize_f18()
     fpt = fopen("input_data/hybrid_func2_data.txt","r");
     if (fpt==NULL)
     {
-        fprintf(stderr,"\n Error: Cannot open input file for reading \n");
-        exit(0);
+        fprintf(stderr,"\n Error: Cannot open input file 'hybrid_func2_data.txt' for reading \n");
+        exit(1);
     }
     for (i=0; i<nfunc; i++)
     {
@@ -1325,6 +1327,7 @@ void Functions_Code::initialize_f18()
         }
        //printf("\n");
     }
+    fclose(fpt);
     for (i=0; i<nreal; i++)
     {
         o[nfunc-1][i] = 0.0;
@@ -1361,8 +1364,8 @@ void Functions_Code::initialize_f19()
     fpt = fopen("input_data/hybrid_func2_data.txt","r");
     if (fpt==NULL)
     {
-        fprintf(stderr,"\n Error: Cannot open input file for reading \n");
-        exit(0);
+        fprintf(stderr,"\n Error: Cannot open input file 'hybrid_func2_data.txt' for reading \n");
+        exit(1);
     }
     for (i=0; i<nfunc; i++)
     {
@@ -1400,6 +1403,7 @@ void Functions_Code::initialize_f19()
         }
        //printf("\n");
     }
+    fclose(fpt);
     for (i=0; i<nreal; i++)
     {
         o[nfunc-1][i] = 0.0;
@@ -1437,8 +1441,8 @@ void Functions_Code::initialize_f20()
     fpt = fopen("input_data/hybrid_func2_data.txt","r");
     if (fpt==NULL)
     {
-        fprintf(stderr,"\n Error: Cannot open input file for reading \n");
-        exit(0);
+        fprintf(stderr,"\n Error: Cannot open input file 'hybrid_func2_data.txt' for reading \n");
+        exit(1);
     }
     for (i=0; i<nfunc; i++)
     {
@@ -1481,6 +1485,7 @@ void Functions_Code::initialize_f20()
         }
        //printf("\n");
     }
+    fclose(fpt);
     for (i=0; i<nreal; i++)
     {
         o[nfunc-1][i] = 0.0;
@@ -1517,8 +1522,8 @@ void Functions_Code::initialize_f21()
     fpt = fopen("input_data/hybrid_func3_data.txt","r");
     if (fpt==NULL)
     {
-        fprintf(stderr,"\n Error: Cannot open input file for reading \n");
-        exit(0);
+        fprintf(stderr,"\n Error: Cannot open input file 'hybrid_func3_data.txt' for reading \n");
+        exit(1);
     }
     for (i=0; i<nfunc; i++)
     {
@@ -1556,6 +1561,7 @@ void Functions_Code::initialize_f21()
         }
        //printf("\n");
     }
+    fclose(fpt);
     sigma[0] = 1.0;
     sigma[1] = 1.0;
     sigma[2] = 1.0;
@@ -1588,8 +1594,8 @@ void Functions_Code::initialize_f22()
     fpt = fopen("input_data/hybrid_func3_data.txt","r");
     if (fpt==NULL)
     {
-        fprintf(stderr,"\n Error: Cannot open input file for reading \n");
-        exit(0);
+        fprintf(stderr,"\n Error: Cannot open input file 'hybrid_func3_data.txt' for reading \n");
+        exit(1);
     }
     for (i=0; i<nfunc; i++)
     {
@@ -1627,6 +1633,7 @@ void Functions_Code::initialize_f22()
         }
        //printf("\n");
     }
+    fclose(fpt);
     sigma[0] = 1.0;
     sigma[1] = 1.0;
     sigma[2] = 1.0;
@@ -1659,8 +1666,8 @@ void Functions_Code::initialize_f23()
     fpt = fopen("input_data/hybrid_func3_data.txt","r");
     if (fpt==NULL)
     {
-        fprintf(stderr,"\n Error: Cannot open input file for reading \n");
-        exit(0);
+        fprintf(stderr,"\n Error: Cannot open input file 'hybrid_func3_data.txt' for reading \n");
+        exit(1);
     }
     for (i=0; i<nfunc; i++)
     {
@@ -1699,6 +1706,7 @@ void Functions_Code::initialize_f23()
         }
        //printf("\n");
     }
+    fclose(fpt);
     sigma[0] = 1.0;
     sigma[1] = 1.0;
     sigma[2] = 1.0;
@@ -1731,8 +1739,8 @@ void Functions_Code::initialize_f24()
     fpt = fopen("input_data/hybrid_func4_data.txt","r");
     if (fpt==NULL)
     {
-        fprintf(stderr,"\n Error: Cannot open input file for reading \n");
-        exit(0);
+        fprintf(stderr,"\n Error: Cannot open input file 'hybrid_func4_data.txt' for reading \n");
+        exit(1);
     }
     for (i=0; i<nfunc; i++)
     {
@@ -1770,6 +1778,7 @@ void Functions_Code::initialize_f24()
         }
        //printf("\n");
     }
+    fclose(fpt);
     for (i=0; i<nfunc; i++)
     {
         sigma[i] = 2.0;
