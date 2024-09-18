@@ -1,20 +1,28 @@
-# Opt
+# Building Opt
+
+In order to compile opt, type the following commands:
+```
+cbp2make -in opt.cbp
+make -f opt.cbp.mak
+```
+
+# Running Opt
 
 C/C++ code to metaheuristics and metamodel applications.
 
-Example run command:
+Example run command (release mode; for debugging use `Debug` instead of `Release`):
 ```
-./Opt -alg SMDE -eval APM -F 0.5 -s 1 -sm LLR -smp 1 -nap 4 -opDE 0-1-2-5 -f 49 -p 50 -g 200
+./bin/Release/opt -alg SMDE -eval APM -F 0.5 -s 1 -sm LLR -smp 1 -nap 4 -opDE 0-1-2-5 -f 49 -p 50 -g 200
 ```
 
-Example for bilevel version - BLDE with surrogate models 
+Example for bilevel version - BLDE with surrogate models
 ```
-./Opt -alg BLDE -eval BLDE -F 0.5 -s 1 -sm KNN -smp 3 -nap 5 -opDE 2 -f -10001 -p 20 -g 50 -pF 50 -gF 100 -s -1
+./bin/Release/opt -alg BLDE -eval BLDE -F 0.5 -s 1 -sm KNN -smp 3 -nap 5 -opDE 2 -f -10001 -p 20 -g 50 -pF 50 -gF 100 -s -1
 ```
 
 for more information use:
 ```
-./Opt -h
+./bin/Release/opt -h
 ```
 
 ## Cite this work:
